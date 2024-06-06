@@ -41,8 +41,11 @@
     <Reference Include="FontAwesome.Sharp">
       <HintPath>..\..\..\..\Componentes\Navegador\CapaVista\bin\Debug\FontAwesome.Sharp.dll</HintPath>
     </Reference>
+    <Reference Include="Modelo_Seguridad">
+      <HintPath>..\..\..\..\..\..\ProyectoMigracion_G1\Equipo1\Codigo\Componentes\Navegador\CapaVista\bin\Debug\Modelo_Seguridad.dll</HintPath>
+    </Reference>
     <Reference Include="Seguridad_Controlador">
-      <HintPath>..\..\..\..\Componentes\Navegador\CapaVista\bin\Debug\Seguridad_Controlador.dll</HintPath>
+      <HintPath>..\..\..\..\En caso de dll faltantes\Seguridad_Controlador.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,7 +58,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="Vista_Seguridad">
-      <HintPath>..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\Program Files\UMG\Instalador General HSC\Vista_Seguridad.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\ProyectoMigracion_G1\Equipo1\Codigo\Modulos\Menu\MenuHCV\Capa_vista\bin\Debug\Vista_Seguridad.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

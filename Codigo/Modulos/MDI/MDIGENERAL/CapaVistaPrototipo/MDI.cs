@@ -129,13 +129,17 @@ namespace CapaVistaPrototipo
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Abrir(new Mantenimientos.frmMatenimientoJornadas());
-            hideSubMenu();
+         
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Abrir(new Mantenimientos.frmMantenimientoSecciones());
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Abrir(new Procesos.frmEliminacionAlumnos());
             hideSubMenu();
         }
     }

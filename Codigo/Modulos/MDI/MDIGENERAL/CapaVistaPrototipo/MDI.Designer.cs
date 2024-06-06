@@ -56,9 +56,6 @@ namespace CapaVistaPrototipo
             this.panelLogo = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-
-            this.button7 = new System.Windows.Forms.Button();
-
             this.panelMDI.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelSideMenu.SuspendLayout();
@@ -264,6 +261,7 @@ namespace CapaVistaPrototipo
             this.button4.Text = "PROCESO ELIMINACION DE ALUMNOS";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // btn_Proceso1
             // 
@@ -354,9 +352,10 @@ namespace CapaVistaPrototipo
             this.button6.Text = "SECCIONES";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.UseVisualStyleBackColor = true;
-
             this.button6.Click += new System.EventHandler(this.button6_Click);
-
+            // 
+            // button5
+            // 
             this.button5.Dock = System.Windows.Forms.DockStyle.Top;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -371,9 +370,10 @@ namespace CapaVistaPrototipo
             this.button5.Text = "JORNADAS";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.UseVisualStyleBackColor = true;
-
             this.button5.Click += new System.EventHandler(this.button5_Click);
-
+            // 
+            // button3
+            // 
             this.button3.Dock = System.Windows.Forms.DockStyle.Top;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -498,23 +498,9 @@ namespace CapaVistaPrototipo
             this.pictureBox3.Size = new System.Drawing.Size(348, 107);
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
-
-            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button7.Location = new System.Drawing.Point(0, 129);
-            this.button7.Margin = new System.Windows.Forms.Padding(4);
-            this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
-            this.button7.Size = new System.Drawing.Size(348, 26);
-            this.button7.TabIndex = 9;
-            this.button7.Text = "CURSOS";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-           
+            // 
+            // MDI
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1143, 736);
